@@ -1,0 +1,14 @@
+{
+  "name": "mactores-agent-delivery-trace-check",
+  "version": "1.0.0",
+  "description": "Delivery evidence checks for agentic AWS modernization work",
+  "type": "module",
+  "main": "src/delivery-check.js",
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js examples/dependency-map-agent.json"
+  },
+  "keywords": ["mactores", "agentic-ai", "aws-modernization", "delivery-evidence"],
+  "author": "Siva Dheeraj",
+  "license": "MIT"
+}
