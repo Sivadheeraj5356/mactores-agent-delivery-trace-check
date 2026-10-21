@@ -1,0 +1,10 @@
+{
+  "customerOutcome": "Produce a reviewed application dependency map that an engineer can use during modernization planning.",
+  "agentToolContract": "Tools accept a repository or inventory identifier and return dependencies with source path, confidence, and timestamp.",
+  "retrievalSource": "Use only the approved synthetic repository inventory and architecture notes for this evaluation.",
+  "testEvidence": "Run 12 dependency cases with 100% source coverage and compare each result with the expected map.",
+  "humanReview": "A forward-deployed engineer reviews low-confidence links and every customer-facing result before release.",
+  "rollbackRule": "Reject generated dependencies without a source path or confidence score and rerun with the deterministic parser.",
+  "auditTrace": "Keep prompt version, source identifiers, tool calls, generated output, test result, reviewer decision, and release timestamp.",
+  "releaseOwner": "Mactores forward-deployed engineering owner"
+}
